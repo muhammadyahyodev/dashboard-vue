@@ -6,8 +6,8 @@
       <Sidebar :toggled="toggle"/>
     </aside>
 
-    <div class="main min-w-full h-screen mt-[78px] p-2">
-      <HomeView />
+    <div class="main bg-indigo-50 min-w-full h-screen mt-[78px] p-2">
+      <Form />
     </div>
 
   </main>
@@ -22,6 +22,7 @@ import Footer from './components/Footer/Footer.vue';
 import Header from './components/Header/Header.vue';
 import Sidebar from './components/Sidebar/Sidebar.vue';
 import HomeView from "./views/Home/HomeView.vue";
+import Form from "./components/Form/Form.vue";
 
 export default {
     name: "App",
@@ -29,7 +30,8 @@ export default {
     Header,
     Sidebar,
     Footer,
-    HomeView
+    HomeView,
+    Form,
   },
 
   data() {
