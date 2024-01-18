@@ -8,6 +8,4 @@ export default {
     name: "HomeView"
 }
 </script>
-<style>
-    
-</style>
+<style></style>
